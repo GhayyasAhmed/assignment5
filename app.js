@@ -293,7 +293,7 @@
 // document.write("<br />You will need ",total_snack," ",fav_snack," to last you until the ripe old age of ",max_age)
 
 
-// Chapter 6
+// Chapter 6-9
 
 // Task 1
 
