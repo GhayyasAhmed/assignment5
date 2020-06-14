@@ -291,3 +291,93 @@
 // document.write("<br />Estimated Maximum Age: "+max_age)
 // document.write("<br />Amount of snacks per day: "+snack_perday)
 // document.write("<br />You will need ",total_snack," ",fav_snack," to last you until the ripe old age of ",max_age)
+
+
+// Chapter 6
+
+// Task 1
+
+// var a = +prompt("Enter a number")
+// document.write("Result:<br/>")
+// document.write("Tha value of a is: ",a)
+// document.write("<br/>..............................<br/>")
+// document.write("<br/>Tha value of ++a is: ",++a)
+// document.write("<br/>Now the value of a is: ",a,"<br/>")
+// document.write("<br/><br/><br/>The value of a++ is: ",a++)
+// document.write("<br/>Now the value of a is: ",a,"<br/>")
+// document.write("<br/><br/><br/>The value of --a is: ",--a)
+// document.write("<br/>Now the value of a is: ",a,"<br/>")
+// document.write("<br/><br/><br/>The value of a-- is: ",a--)
+// document.write("<br/>Now the value of a is: ",a,"<br/>")
+
+// Task 2
+
+// var a = 2;
+// var b = 1;
+// document.write("a is ",a,"<br/>")
+// document.write("b is ",b,"<br/>")
+// var result = --a - --b + ++b + b--;
+// document.write("result is ",result,"<br/>")
+// document.write("after --a there is predecrement in a, a = 1 and result was equal to 1")
+// document.write("<br/>after --a - --b there is predecrement in b, b = 0 and result was equal to 1 - 0 = 1")
+// document.write("<br/>after --a - --b + ++b there is preincrement in b, b = 1 and result was equal to 1 - 0 + 1 = 2")
+// document.write("<br/>after --a - --b + ++b + b-- there is postdecrement in b, b = 0 and result was equal to 1 - 0 + 1 + 1 = 3")
+
+// Task 3
+
+// var user_name = prompt("Enter your name");
+// alert("Assalam Alaikum Dear "+ user_name)
+
+// Task 4
+
+// alert("Not in the file")
+
+// Task 5
+
+// var tablenumber = +prompt("Enter a number to display multiplication table of it")
+
+// if(tablenumber == " "){
+// document.write("Table of 5")
+// document.write("<br />5x1=",5*1)
+// document.write("<br />5x2=",5*2)
+// document.write("<br />5x3=",5*3)
+// document.write("<br />5x4=",5*4)
+// document.write("<br />5x5=",5*5)
+// document.write("<br />5x6=",5*6)
+// document.write("<br />5x7=",5*7)
+// document.write("<br />5x8=",5*8)
+// document.write("<br />5x9=",5*9)
+// document.write("<br />5x10=",5*10)
+// }
+// else{
+//     document.write("Table of ",tablenumber)
+// document.write("<br />",tablenumber,"x1=",tablenumber*1)
+// document.write("<br />",tablenumber,"x2=",tablenumber*2)
+// document.write("<br />",tablenumber,"x3=",tablenumber*3)
+// document.write("<br />",tablenumber,"x4=",tablenumber*4)
+// document.write("<br />",tablenumber,"x5=",tablenumber*5)
+// document.write("<br />",tablenumber,"x6=",tablenumber*6)
+// document.write("<br />",tablenumber,"x7=",tablenumber*7)
+// document.write("<br />",tablenumber,"x8=",tablenumber*8)
+// document.write("<br />",tablenumber,"x9=",tablenumber*9)
+// document.write("<br />",tablenumber,"x10=",tablenumber*10)
+// }
+
+// Task 6
+
+// var subject1 = prompt("Enter subject 1 of your choice");
+// var subject2 = prompt("Enter subject 2 of your choice");
+// var subject3 = prompt("Enter subject 3 of your choice");
+// var totalmarks = 100;
+// var obtmarks_sub1 = +prompt("Enter the marks obtained in "+subject1);
+// var obtmarks_sub2 = +prompt("Enter the marks obtained in "+subject2);
+// var obtmarks_sub3 = +prompt("Enter the marks obtained in "+subject3);
+// var per1 = (obtmarks_sub1/totalmarks)*100;
+// var per2 = (obtmarks_sub2/totalmarks)*100;
+// var per3 = (obtmarks_sub3/totalmarks)*100;
+// document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>")
+// document.write("<table><tr><td>"+subject1+"</td><td></td><td></td><td></td><td></td><td></td><td></td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>",obtmarks_sub1,"</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>",per1,"%</td></tr>")
+// document.write("<table><tr><td>"+subject2+"</td><td></td><td></td><td></td><td></td><td></td><td></td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>",obtmarks_sub2,"</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>",per2,"%</td></tr>")
+// document.write("<table><tr><td>"+subject3+"</td><td></td><td></td><td></td><td></td><td></td><td></td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>",obtmarks_sub3,"</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>",per3,"%</td></tr>")
+// document.write("<table><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><th>",totalmarks*3,"</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><th>",obtmarks_sub1+obtmarks_sub2+obtmarks_sub3,"</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><th>",(per1+per2+per3)/3,"%</th></tr>")
+
