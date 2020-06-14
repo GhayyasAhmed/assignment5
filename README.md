@@ -1,3 +1,3 @@
 # assignment5
 
-All code on app.js should be uncommented first.
+All code in app.js should be uncommented first.
